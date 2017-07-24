@@ -1,8 +1,8 @@
 <h2>INSTALL</h2>
-	npm install @stoneqq11/react-dialog --save
+	npm install @dreamland/react-dialog --save
 
 <h2>USEAGE</h2>
-	import Dialog from '@stoneqq11/react-dialog'
+	import Dialog from '@dreamland/react-dialog'
 
 	<Dialog data={{
 		title: '',
@@ -13,12 +13,12 @@
 
 <h2>USE WITH REDUX</h2>
 	// action
-	import * as dialogActions from '@stoneqq11/react-dialog/lib/action'
+	import * as dialogActions from '@dreamland/react-dialog/lib/action'
 
 	// reducer
-	import dialogData from '@stoneqq11/react-dialog/lib/reducer'
+	import dialogData from '@dreamland/react-dialog/lib/reducer'
 
-	import Dialog from '@stoneqq11/react-dialog'
+	import Dialog from '@dreamland/react-dialog'
 	import Immutable from 'immutable'
 
 	<Dialog data={dialogData} />
